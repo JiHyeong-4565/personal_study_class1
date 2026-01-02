@@ -1,0 +1,10 @@
+T = int(input())
+
+for t in range(T):
+    R,P = input().split()
+    R = int(R)
+
+    for i in P:
+        for q in range(R):
+            print(i,end="")
+    print()
